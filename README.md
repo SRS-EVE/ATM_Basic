@@ -28,7 +28,7 @@
 2. 입출금 기능
  - ***입금(Deposit)***
 
-  입력한 금액을 사용자 계좌에 입금
+  입력한 금액을 사용자 계좌에 입금  
   GameManager → BankTransaction → UserData로 데이터 전달 및 저장
 
  - ***출금(Withdraw)***
