@@ -27,16 +27,16 @@
  - 새 사용자 생성하는 회원가입
 
 2. 입출금 기능
- - 입금(Deposit)
+ - ***입금(Deposit)***
 
   입력한 금액을 사용자 계좌에 입금
   GameManager → BankTransaction → UserData로 데이터 전달 및 저장
 
- - 출금(Withdraw)
+ - ***출금(Withdraw)***
 
-  잔액보다 큰 금액은 출금 불가
+  - 잔액보다 큰 금액은 출금 불가
 
-  출금 성공 시 잔액 차감
+  - 출금 성공 시 잔액 차감
 
 3. UI 연동
   ATM UI 팝업창 (PopupBank)
