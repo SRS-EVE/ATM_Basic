@@ -26,6 +26,8 @@
  - 사용자 이름 기반 로그인 기능 (PopupLogin)
  - 새 사용자 생성하는 회원가입
 
+
+
 2. 입출금 기능
  - ***입금(Deposit)***
 
@@ -38,6 +40,8 @@
 
   - 출금 성공 시 잔액 차감
 
+
+
 3. UI 연동
   ATM UI 팝업창 (PopupBank)
 
@@ -47,12 +51,16 @@
 
   - 보유현금/통장잔액 표시
 
+
+
 4. 데이터 저장/불러오기
  - JsonUtility를 이용한 사용자 데이터 JSON 저장
 
  - 경로: Application.persistentDataPath/userData.customerId.json
 
  - 시작 시 자동 로드
+
+
 
 5. 데이터 구조
  - UserData: 사용자 이름, 사용자ID,사용자 패스워드, 보유현금, 계좌잔액 
